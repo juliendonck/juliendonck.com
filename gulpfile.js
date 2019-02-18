@@ -120,6 +120,6 @@ gulp.task('build', function(callback) {
 gulp.task('deploy', [], function () {
   return surge({
     project: './dist',         // Path to your static build directory
-    domain: 'unhealthy-park.surge.sh'  // Your domain or Surge subdomain
+    domain: 'juliendonck.com'  // Your domain or Surge subdomain
   })
 })
