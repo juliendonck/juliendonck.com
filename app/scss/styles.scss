@@ -2,20 +2,37 @@
 @import "reset";
 @import "underline";
 
+// Colors
+
+$blue: #0466E3;
+$pink: #E2457D;
+$yellow: #F7CD55;
+$white: #ffffff;
+$black: #000000;
+
+
 // import font
 @font-face {
-  font-family: "FoundersGroteskMono";
-  src: url("../fonts/FoundersGroteskMonoWeb-Regular.eot?") format("eot"),
-    url("../fonts/FoundersGroteskMonoWeb-Regular.woff2") format("woff2"),
-    url("../fonts/FoundersGroteskMonoWeb-Regular.woff") format("woff");
+  font-family: "PressuraMono";
+  src: url("../fonts/GT-Pressura-Mono-Regular.woff") format("woff"),
+    url("../fonts/GT-Pressura-Mono-Regular.eot?") format("eot"),
+    url("../fonts/GT-Pressura-Mono-Regular.ttf") format("ttf");
+}
+
+@font-face {
+  font-family: "PressuraMonoBold";
+  src: url("../fonts/GT-Pressura-Mono-Bold.woff") format("woff"),
+    url("../fonts/GT-Pressura-Mono-Bold.eot?") format("eot"),
+    url("../fonts/GT-Pressura-Mono-Bold.ttf") format("ttf");
 }
 
 // selection color
 ::-moz-selection {
-  background: blue;
+  background: $blue;
 }
+
 ::selection {
-  background: blue;
+  background: $blue;
 }
 
 html {
@@ -28,7 +45,7 @@ body {
   background-color: black;
   color: white;
   min-height: 100%;
-  font-family: FoundersGroteskMono, monospace;
+  font-family: PressuraMono, monospace;
   font-size: 16px;
   line-height: 150%;
   display: flex;
@@ -38,29 +55,30 @@ body {
   padding: 10vw;
   text-align: center;
 }
+
 p {
   margin-bottom: 1em;
+
   &.pencil {
     font-size: 24px;
-    color: #F7CD55;
+    color: $yellow;
     margin-bottom: 2em;
   }
 }
 
-
-$color-background: #000;
-$color-selection: blue;
-
 a {
-  color: #E2457D;
+  font-family: PressuraMonoBold, monospace;
+  color: $pink;
+
   &:hover {
-    @include link-underline($color-background, #E2457D, $color-selection);
+    @include link-underline($black, $pink, $blue);
   }
 
   &.monadic {
-    color: #0466E3;
+    color: $blue;
+
     &:hover {
-      @include link-underline($color-background, #0466E3, $color-selection);
+      @include link-underline($black, $blue, $pink);
     }
   }
 }
