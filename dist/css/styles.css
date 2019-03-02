@@ -138,14 +138,18 @@ button:focus {
   outline: none; }
 
 @font-face {
-  font-family: "FoundersGroteskMono";
-  src: url("../fonts/FoundersGroteskMonoWeb-Regular.eot?") format("eot"), url("../fonts/FoundersGroteskMonoWeb-Regular.woff2") format("woff2"), url("../fonts/FoundersGroteskMonoWeb-Regular.woff") format("woff"); }
+  font-family: "PressuraMono";
+  src: url("../fonts/GT-Pressura-Mono-Regular.woff") format("woff"), url("../fonts/GT-Pressura-Mono-Regular.eot?") format("eot"), url("../fonts/GT-Pressura-Mono-Regular.ttf") format("ttf"); }
+
+@font-face {
+  font-family: "PressuraMonoBold";
+  src: url("../fonts/GT-Pressura-Mono-Bold.woff") format("woff"), url("../fonts/GT-Pressura-Mono-Bold.eot?") format("eot"), url("../fonts/GT-Pressura-Mono-Bold.ttf") format("ttf"); }
 
 ::-moz-selection {
-  background: blue; }
+  background: #0466E3; }
 
 ::selection {
-  background: blue; }
+  background: #0466E3; }
 
 html {
   height: 100%;
@@ -156,7 +160,7 @@ body {
   background-color: black;
   color: white;
   min-height: 100%;
-  font-family: FoundersGroteskMono, monospace;
+  font-family: PressuraMono, monospace;
   font-size: 16px;
   line-height: 150%;
   display: flex;
@@ -174,9 +178,10 @@ p {
     margin-bottom: 2em; }
 
 a {
+  font-family: PressuraMonoBold, monospace;
   color: #E2457D; }
   a:hover {
-    text-shadow: 0.03em 0 #000, -0.03em 0 #000, 0 0.03em #000, 0 -0.03em #000, 0.06em 0 #000, -0.06em 0 #000, 0.09em 0 #000, -0.09em 0 #000, 0.12em 0 #000, -0.12em 0 #000, 0.15em 0 #000, -0.15em 0 #000;
+    text-shadow: 0.03em 0 #000000, -0.03em 0 #000000, 0 0.03em #000000, 0 -0.03em #000000, 0.06em 0 #000000, -0.06em 0 #000000, 0.09em 0 #000000, -0.09em 0 #000000, 0.12em 0 #000000, -0.12em 0 #000000, 0.15em 0 #000000, -0.15em 0 #000000;
     background-image: linear-gradient(#E2457D, #E2457D);
     background-size: 1px 1px;
     background-repeat: repeat-x;
@@ -184,11 +189,11 @@ a {
     color: #E2457D;
     text-decoration: none; }
     a:hover::selection {
-      text-shadow: 0.03em 0 blue, -0.03em 0 blue, 0 0.03em blue, 0 -0.03em blue, 0.06em 0 blue, -0.06em 0 blue, 0.09em 0 blue, -0.09em 0 blue, 0.12em 0 blue, -0.12em 0 blue, 0.15em 0 blue, -0.15em 0 blue;
-      background: blue; }
+      text-shadow: 0.03em 0 #0466E3, -0.03em 0 #0466E3, 0 0.03em #0466E3, 0 -0.03em #0466E3, 0.06em 0 #0466E3, -0.06em 0 #0466E3, 0.09em 0 #0466E3, -0.09em 0 #0466E3, 0.12em 0 #0466E3, -0.12em 0 #0466E3, 0.15em 0 #0466E3, -0.15em 0 #0466E3;
+      background: #0466E3; }
     a:hover::-moz-selection {
-      text-shadow: 0.03em 0 blue, -0.03em 0 blue, 0 0.03em blue, 0 -0.03em blue, 0.06em 0 blue, -0.06em 0 blue, 0.09em 0 blue, -0.09em 0 blue, 0.12em 0 blue, -0.12em 0 blue, 0.15em 0 blue, -0.15em 0 blue;
-      background: blue; }
+      text-shadow: 0.03em 0 #0466E3, -0.03em 0 #0466E3, 0 0.03em #0466E3, 0 -0.03em #0466E3, 0.06em 0 #0466E3, -0.06em 0 #0466E3, 0.09em 0 #0466E3, -0.09em 0 #0466E3, 0.12em 0 #0466E3, -0.12em 0 #0466E3, 0.15em 0 #0466E3, -0.15em 0 #0466E3;
+      background: #0466E3; }
     a:hover *,
     a:hover *:after, a:hover:after,
     a:hover *:before, a:hover:before {
@@ -198,7 +203,7 @@ a {
   a.monadic {
     color: #0466E3; }
     a.monadic:hover {
-      text-shadow: 0.03em 0 #000, -0.03em 0 #000, 0 0.03em #000, 0 -0.03em #000, 0.06em 0 #000, -0.06em 0 #000, 0.09em 0 #000, -0.09em 0 #000, 0.12em 0 #000, -0.12em 0 #000, 0.15em 0 #000, -0.15em 0 #000;
+      text-shadow: 0.03em 0 #000000, -0.03em 0 #000000, 0 0.03em #000000, 0 -0.03em #000000, 0.06em 0 #000000, -0.06em 0 #000000, 0.09em 0 #000000, -0.09em 0 #000000, 0.12em 0 #000000, -0.12em 0 #000000, 0.15em 0 #000000, -0.15em 0 #000000;
       background-image: linear-gradient(#0466E3, #0466E3);
       background-size: 1px 1px;
       background-repeat: repeat-x;
@@ -206,11 +211,11 @@ a {
       color: #0466E3;
       text-decoration: none; }
       a.monadic:hover::selection {
-        text-shadow: 0.03em 0 blue, -0.03em 0 blue, 0 0.03em blue, 0 -0.03em blue, 0.06em 0 blue, -0.06em 0 blue, 0.09em 0 blue, -0.09em 0 blue, 0.12em 0 blue, -0.12em 0 blue, 0.15em 0 blue, -0.15em 0 blue;
-        background: blue; }
+        text-shadow: 0.03em 0 #E2457D, -0.03em 0 #E2457D, 0 0.03em #E2457D, 0 -0.03em #E2457D, 0.06em 0 #E2457D, -0.06em 0 #E2457D, 0.09em 0 #E2457D, -0.09em 0 #E2457D, 0.12em 0 #E2457D, -0.12em 0 #E2457D, 0.15em 0 #E2457D, -0.15em 0 #E2457D;
+        background: #E2457D; }
       a.monadic:hover::-moz-selection {
-        text-shadow: 0.03em 0 blue, -0.03em 0 blue, 0 0.03em blue, 0 -0.03em blue, 0.06em 0 blue, -0.06em 0 blue, 0.09em 0 blue, -0.09em 0 blue, 0.12em 0 blue, -0.12em 0 blue, 0.15em 0 blue, -0.15em 0 blue;
-        background: blue; }
+        text-shadow: 0.03em 0 #E2457D, -0.03em 0 #E2457D, 0 0.03em #E2457D, 0 -0.03em #E2457D, 0.06em 0 #E2457D, -0.06em 0 #E2457D, 0.09em 0 #E2457D, -0.09em 0 #E2457D, 0.12em 0 #E2457D, -0.12em 0 #E2457D, 0.15em 0 #E2457D, -0.15em 0 #E2457D;
+        background: #E2457D; }
       a.monadic:hover *,
       a.monadic:hover *:after, a.monadic:hover:after,
       a.monadic:hover *:before, a.monadic:hover:before {
