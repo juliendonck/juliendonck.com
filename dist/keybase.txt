@@ -1,0 +1,60 @@
+juliendonck
+Julien Donck
+Maker
+Berlin, Germany
+==================================================================
+https://keybase.io/juliendonck
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://juliendonck.com
+  * I am juliendonck (https://keybase.io/juliendonck) on keybase.
+  * I have a public key ASCLXCwA4btfj_rRVKi1EtE3f0XXXtMf9WiVarDaRwOAuwo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01208b5c2c00e1bb5f8ffad154a8b512d1377f45d75ed31ff568956ab0da470380bb0a",
+      "host": "keybase.io",
+      "kid": "01208b5c2c00e1bb5f8ffad154a8b512d1377f45d75ed31ff568956ab0da470380bb0a",
+      "uid": "b8855f0168e9255595fafe4417ffa119",
+      "username": "juliendonck"
+    },
+    "merkle_root": {
+      "ctime": 1557925196,
+      "hash": "a95343bfc8542586c4d7fa07649f65f66e9b9838574de2367d17c86d974a2bc7ef5be9abfcd11a03835fb2e7f2ed86432b868f5c5bbd4a1f65e146a13100fb75",
+      "hash_meta": "bcbed178b5d239a91f14b484301a5a2beded8e45e5b1e17111bbcdf7bb3c4cd4",
+      "seqno": 5377099
+    },
+    "service": {
+      "entropy": "UqTvYmqk1wqtnVKW594JPjRA",
+      "hostname": "juliendonck.com",
+      "protocol": "http:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "4.0.0"
+  },
+  "ctime": 1557925209,
+  "expire_in": 504576000,
+  "prev": "692672bea92369c839ee72babaec644b2401801c41a91a2b53556426733ce88d",
+  "seqno": 27,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgi1wsAOG7X4/60VSotRLRN39F117TH/VolWqw2kcDgLsKp3BheWxvYWTESpcCG8QgaSZyvqkjacg57nK6uuxkSyQBgBxBqRorU1VkJnM86I3EINl0WPUuXBP5nK4+IoFDH7pXCIZ3mCvGz7z6uktpc4omAgHCo3NpZ8RATFzBNDSmbAG0h2h4xAB6i4UWwr/WFd7qfo7jHzAvTJYoSrJZqq/mM02e0+6Tpbo50r/UcYXB0SDajVAu5URWC6hzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIHiIuCEWewU9WrEej8VXWLSEMjm02p8Fjirq4rDOkkKto3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/juliendonck
+
+==================================================================
